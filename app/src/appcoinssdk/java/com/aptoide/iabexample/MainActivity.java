@@ -508,7 +508,7 @@ public class MainActivity extends Activity
     setWaitScreen(true);
 
     String url = BuildConfig.BACKEND_HOST
-        + "transaction/inapp?value=1&currency=eur"
+        + "transaction/inapp?value=1&currency=EUR"
         + "&to=0xbb83e699f1188baabea820ce02995c97bd9b510f"
         + "&domain="
         + getPackageName();
